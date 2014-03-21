@@ -163,6 +163,7 @@ namespace Tetris4Win8.Screens
         {
             GameRef.SpriteBatch.DrawString(font, _score.ToString(), new Vector2(GameRef.screenWidth / 2 - _mainGrid.Width / 2+ ScorePosition.X, GameRef.screenHeight / 2 - _mainGrid.Height / 2+ ScorePosition.Y), Color.Black);
         }
+        //this function needs reconsideration
         public void CheckBoard()
         {
             for (int j = Rows-1; j >=0 ; j--)
